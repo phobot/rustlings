@@ -15,10 +15,10 @@ Alternatively, for a first-time Rust learner, there are several other resources:
 
 ## Getting Started
 
-_Note: If you're on MacOS, make sure you've installed Xcode and its developer tools by typing `xcode-select --install`._
+_Note: If you're on macOS, make sure you've installed Xcode and its developer tools by typing `xcode-select --install`._
 _Note: If you're on Linux, make sure you've installed gcc. Deb: `sudo apt install gcc`. Yum: `sudo yum -y install gcc`._
 
-You will need to have Rust installed. You can get it by visiting <https://rustup.rs>. This'll also install Cargo, Rust's package/project manager.
+You will need to have Rust installed. You can get it by visiting <https://rustup.rs>. This`ll also install Cargo, Rust's package/project manager.
 
 ## MacOS/Linux
 
@@ -64,7 +64,7 @@ Then, you can run:
 Start-BitsTransfer -Source https://raw.githubusercontent.com/rust-lang/rustlings/main/install.ps1 -Destination $env:TMP/install_rustlings.ps1; Unblock-File $env:TMP/install_rustlings.ps1; Invoke-Expression $env:TMP/install_rustlings.ps1
 ```
 
-To install Rustlings. Same as on MacOS/Linux, you will have access to the `rustlings` command after it. Keep in mind that this works best in PowerShell, and any other terminals may give you errors.
+To install Rustlings. Same as on macOS/Linux, you will have access to the `rustlings` command after it. Keep in mind that this works best in PowerShell, and any other terminals may give you errors.
 
 If you get a permission denied message, you might have to exclude the directory where you cloned Rustlings in your antivirus.
 
@@ -85,7 +85,7 @@ cd rustlings
 cargo install --force --path .
 ```
 
-If there are installation errors, ensure that your toolchain is up to date. For the latest, run:
+If there are installation errors, ensure that your toolchain is up-to-date. For the latest, run:
 
 ```bash
 rustup update
@@ -156,7 +156,7 @@ Once you've completed Rustlings, put your new knowledge to good use! Continue pr
 
 ## Uninstalling Rustlings
 
-If you want to remove Rustlings from your system, there are two steps. First, you'll need to remove the exercises folder that the install script created
+If you want to remove Rustlings from your system, there are two steps. First, you'll need to remove the exercises folder that the installation script created
 for you:
 
 ```bash
