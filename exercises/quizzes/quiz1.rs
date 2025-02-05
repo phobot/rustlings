@@ -11,6 +11,13 @@
 // TODO: Write a function that calculates the price of an order of apples given
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
+fn calculate_price_of_apples(cart_count :i32) -> i32 {
+    if cart_count <= 40 {
+        cart_count * 2
+    } else {
+            cart_count 
+            }
+}
 
 fn main() {
     // You can optionally experiment here.
@@ -27,5 +34,7 @@ mod tests {
         assert_eq!(calculate_price_of_apples(40), 80);
         assert_eq!(calculate_price_of_apples(41), 41);
         assert_eq!(calculate_price_of_apples(65), 65);
+        assert_eq!(calculate_price_of_apples(100), 100);
+        assert_eq!(calculate_price_of_apples(999999), 999999);
     }
 }
